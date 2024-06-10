@@ -4,7 +4,7 @@ pipeline {
         stage('Prepare'){
             steps{
                 script{
-                    echo 'About to send the Email'
+                    echo 'About to send the Email' 
                 }
             }
         }
